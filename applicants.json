@@ -1,0 +1,952 @@
+[
+  {
+    "profile_id": "candidate_1001",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "计算机科学本科",
+      "experience_years": 3,
+      "skills": ["Python", "SQL", "FastAPI", "PostgreSQL", "后端接口开发"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 26,
+      "marital_status": "未婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 80
+    }
+  },
+  {
+    "profile_id": "candidate_1002",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "数字媒体技术本科",
+      "experience_years": 2,
+      "skills": ["HTML", "CSS", "JavaScript", "网页交互开发"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 25,
+      "marital_status": "已婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 48
+    }
+  },
+  {
+    "profile_id": "candidate_1003",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "软件工程硕士",
+      "experience_years": 5,
+      "skills": ["Python", "SQL", "Django", "Redis", "后端服务性能优化"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 31,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 92
+    }
+  },
+  {
+    "profile_id": "candidate_1004",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "信息管理本科",
+      "experience_years": 4,
+      "skills": ["SQL", "Excel", "Power BI", "业务报表制作"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 29,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 62
+    }
+  },
+  {
+    "profile_id": "candidate_1005",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "软件技术专科",
+      "experience_years": 6,
+      "skills": ["Python", "SQL", "Flask", "MySQL", "后端服务部署"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 33,
+      "marital_status": "已婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 76
+    }
+  },
+  {
+    "profile_id": "candidate_1006",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "计算机科学本科",
+      "experience_years": 1,
+      "skills": ["Python基础", "Jupyter Notebook", "数据清洗", "基础脚本编写"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 24,
+      "marital_status": "未婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 55
+    }
+  },
+  {
+    "profile_id": "candidate_1007",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "应用数学本科",
+      "experience_years": 2,
+      "skills": ["Python", "SQL", "FastAPI", "SQLite", "REST API开发", "单元测试"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 28,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 85
+    }
+  },
+  {
+    "profile_id": "candidate_1008",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "网络工程专科",
+      "experience_years": 7,
+      "skills": ["网络设备配置", "Windows系统维护", "硬件故障排查", "技术支持"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 35,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 70
+    }
+  },
+  {
+    "profile_id": "candidate_1009",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "信息系统硕士",
+      "experience_years": 4,
+      "skills": ["Python", "SQL", "Django REST Framework", "PostgreSQL", "数据库设计"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 38,
+      "marital_status": "已婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 71
+    }
+  },
+  {
+    "profile_id": "candidate_1010",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "电子信息工程本科",
+      "experience_years": 3,
+      "skills": ["C", "C++", "单片机开发", "嵌入式系统调试"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 27,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 39
+    }
+  },
+  {
+    "profile_id": "candidate_1011",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "软件工程本科",
+      "experience_years": 4,
+      "skills": ["Python", "SQL", "FastAPI", "PostgreSQL", "接口集成测试"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 28,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 88
+    }
+  },
+  {
+    "profile_id": "candidate_1012",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "计算机应用专科",
+      "experience_years": 2,
+      "skills": ["JavaScript", "Vue", "CSS", "前端页面开发"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 25,
+      "marital_status": "已婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 64
+    }
+  },
+  {
+    "profile_id": "candidate_1013",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "计算机科学硕士",
+      "experience_years": 6,
+      "skills": ["Python", "SQL", "Django", "Redis", "异步任务处理"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 32,
+      "marital_status": "未婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 67
+    }
+  },
+  {
+    "profile_id": "candidate_1014",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "信息安全本科",
+      "experience_years": 3,
+      "skills": ["网络安全巡检", "漏洞扫描", "Linux", "Shell"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 27,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 73
+    }
+  },
+  {
+    "profile_id": "candidate_1015",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "统计学本科",
+      "experience_years": 3,
+      "skills": ["Python", "SQL", "Flask", "MySQL", "数据服务接口"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 29,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 94
+    }
+  },
+  {
+    "profile_id": "candidate_1016",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "通信工程本科",
+      "experience_years": 5,
+      "skills": ["C++", "通信协议调试", "设备测试", "Python基础"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 31,
+      "marital_status": "未婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 51
+    }
+  },
+  {
+    "profile_id": "candidate_1017",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "软件技术专科",
+      "experience_years": 8,
+      "skills": ["Python", "SQL", "Django", "Docker", "后端服务维护"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 37,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 82
+    }
+  },
+  {
+    "profile_id": "candidate_1018",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "信息管理本科",
+      "experience_years": 4,
+      "skills": ["Excel", "SQL基础", "需求文档编写", "业务流程分析"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 30,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 60
+    }
+  },
+  {
+    "profile_id": "candidate_1019",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "计算机科学本科",
+      "experience_years": 2,
+      "skills": ["Python", "SQL", "FastAPI", "SQLite", "接口单元测试"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 24,
+      "marital_status": "已婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 74
+    }
+  },
+  {
+    "profile_id": "candidate_1020",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "自动化本科",
+      "experience_years": 6,
+      "skills": ["PLC编程", "工业设备调试", "MATLAB", "数据采集"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 34,
+      "marital_status": "未婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 45
+    }
+  },
+  {
+    "profile_id": "candidate_1021",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "信息系统硕士",
+      "experience_years": 7,
+      "skills": ["Python", "SQL", "PostgreSQL", "数据库迁移", "REST API开发"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 36,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 80
+    }
+  },
+  {
+    "profile_id": "candidate_1022",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "软件工程本科",
+      "experience_years": 1,
+      "skills": ["Java", "HTML", "CSS", "课程项目开发"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 23,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 48
+    }
+  },
+  {
+    "profile_id": "candidate_1023",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "应用数学硕士",
+      "experience_years": 4,
+      "skills": ["Python", "SQL", "Flask", "SQLAlchemy", "后台数据处理"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 30,
+      "marital_status": "未婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 92
+    }
+  },
+  {
+    "profile_id": "candidate_1024",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "数字媒体技术本科",
+      "experience_years": 5,
+      "skills": ["Unity", "C#", "三维交互开发", "动画脚本"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 33,
+      "marital_status": "已婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 62
+    }
+  },
+  {
+    "profile_id": "candidate_1025",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "计算机应用专科",
+      "experience_years": 10,
+      "skills": ["Python", "SQL", "MySQL", "Linux", "后端故障排查"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 42,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 76
+    }
+  },
+  {
+    "profile_id": "candidate_1026",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "网络工程本科",
+      "experience_years": 3,
+      "skills": ["路由器配置", "网络监控", "Linux基础", "技术支持"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 28,
+      "marital_status": "已婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 55
+    }
+  },
+  {
+    "profile_id": "candidate_1027",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "软件工程本科",
+      "experience_years": 5,
+      "skills": ["Python", "SQL", "FastAPI", "Docker", "持续集成"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 35,
+      "marital_status": "未婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 85
+    }
+  },
+  {
+    "profile_id": "candidate_1028",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "电子信息工程硕士",
+      "experience_years": 4,
+      "skills": ["嵌入式C", "信号处理", "硬件测试", "MATLAB"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 29,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 70
+    }
+  },
+  {
+    "profile_id": "candidate_1029",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "信息管理本科",
+      "experience_years": 6,
+      "skills": ["Python", "SQL", "Django", "PostgreSQL", "权限接口开发"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 39,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 71
+    }
+  },
+  {
+    "profile_id": "candidate_1030",
+    "job_id": "job_001",
+    "job_related_attributes": {
+      "education": "计算机科学本科",
+      "experience_years": 2,
+      "skills": ["软件手工测试", "缺陷跟踪", "Excel", "Python基础"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 26,
+      "marital_status": "未婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 39
+    }
+  },
+  {
+    "profile_id": "candidate_2001",
+    "job_id": "job_002",
+    "job_related_attributes": {
+      "education": "市场营销本科",
+      "experience_years": 3,
+      "skills": ["市场调研", "销售数据汇总", "PowerPoint", "Excel基础"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 26,
+      "marital_status": "已婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 64
+    }
+  },
+  {
+    "profile_id": "candidate_2002",
+    "job_id": "job_002",
+    "job_related_attributes": {
+      "education": "会计学本科",
+      "experience_years": 3,
+      "skills": ["财务报表分析", "会计核算", "预算编制", "成本分析", "Excel数据透视表"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 26,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 88
+    }
+  },
+  {
+    "profile_id": "candidate_2003",
+    "job_id": "job_002",
+    "job_related_attributes": {
+      "education": "计算机科学本科",
+      "experience_years": 4,
+      "skills": ["Python", "SQL", "数据可视化", "Excel数据处理"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 28,
+      "marital_status": "已婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 73
+    }
+  },
+  {
+    "profile_id": "candidate_2004",
+    "job_id": "job_002",
+    "job_related_attributes": {
+      "education": "金融学硕士",
+      "experience_years": 5,
+      "skills": ["财务分析", "会计基础", "经营预算", "成本差异分析", "Excel财务建模"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 31,
+      "marital_status": "未婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 67
+    }
+  },
+  {
+    "profile_id": "candidate_2005",
+    "job_id": "job_002",
+    "job_related_attributes": {
+      "education": "会计学本科",
+      "experience_years": 1,
+      "skills": ["发票整理", "凭证录入", "银行对账", "Excel基础"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 24,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 51
+    }
+  },
+  {
+    "profile_id": "candidate_2006",
+    "job_id": "job_002",
+    "job_related_attributes": {
+      "education": "财务管理专科",
+      "experience_years": 8,
+      "skills": ["会计核算", "财务报表分析", "年度预算编制", "经营成本评估", "Excel高级函数"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 35,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 94
+    }
+  },
+  {
+    "profile_id": "candidate_2007",
+    "job_id": "job_002",
+    "job_related_attributes": {
+      "education": "经济学本科",
+      "experience_years": 2,
+      "skills": ["财务报表解读", "会计基础", "预算编制", "成本收益分析", "Excel数据透视表"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 27,
+      "marital_status": "未婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 82
+    }
+  },
+  {
+    "profile_id": "candidate_2008",
+    "job_id": "job_002",
+    "job_related_attributes": {
+      "education": "金融学本科",
+      "experience_years": 6,
+      "skills": ["银行客户服务", "金融产品介绍", "客户关系维护", "Excel基础"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 32,
+      "marital_status": "已婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 60
+    }
+  },
+  {
+    "profile_id": "candidate_2009",
+    "job_id": "job_002",
+    "job_related_attributes": {
+      "education": "行政管理专科",
+      "experience_years": 5,
+      "skills": ["行政采购", "费用单据整理", "办公物资管理", "Word"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 36,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 45
+    }
+  },
+  {
+    "profile_id": "candidate_2010",
+    "job_id": "job_002",
+    "job_related_attributes": {
+      "education": "工商管理本科",
+      "experience_years": 6,
+      "skills": ["管理会计", "财务报表分析", "滚动预算", "成本控制", "Excel", "Power Query"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 39,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 74
+    }
+  },
+  {
+    "profile_id": "candidate_3001",
+    "job_id": "job_003",
+    "job_related_attributes": {
+      "education": "视觉传达设计本科",
+      "experience_years": 3,
+      "skills": ["品牌视觉设计", "排版", "色彩搭配", "Adobe Photoshop", "Adobe Illustrator"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 26,
+      "marital_status": "未婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 80
+    }
+  },
+  {
+    "profile_id": "candidate_3002",
+    "job_id": "job_003",
+    "job_related_attributes": {
+      "education": "影视制作本科",
+      "experience_years": 4,
+      "skills": ["视频剪辑", "Adobe Premiere Pro", "Adobe After Effects", "音频编辑"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 28,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 48
+    }
+  },
+  {
+    "profile_id": "candidate_3003",
+    "job_id": "job_003",
+    "job_related_attributes": {
+      "education": "市场营销本科",
+      "experience_years": 2,
+      "skills": ["社交媒体运营", "文案写作", "Canva模板编辑", "活动策划"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 25,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 62
+    }
+  },
+  {
+    "profile_id": "candidate_3004",
+    "job_id": "job_003",
+    "job_related_attributes": {
+      "education": "广告设计专科",
+      "experience_years": 6,
+      "skills": ["宣传册设计", "字体排版", "色彩搭配", "Adobe Photoshop", "Adobe Illustrator", "印刷文件制作"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 32,
+      "marital_status": "未婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 92
+    }
+  },
+  {
+    "profile_id": "candidate_3005",
+    "job_id": "job_003",
+    "job_related_attributes": {
+      "education": "艺术设计硕士",
+      "experience_years": 4,
+      "skills": ["品牌视觉系统设计", "海报设计", "排版", "色彩搭配", "Adobe Photoshop", "Adobe Illustrator"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 30,
+      "marital_status": "已婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 76
+    }
+  },
+  {
+    "profile_id": "candidate_3006",
+    "job_id": "job_003",
+    "job_related_attributes": {
+      "education": "计算机科学本科",
+      "experience_years": 3,
+      "skills": ["HTML", "CSS", "JavaScript", "React", "网页组件开发"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 27,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 55
+    }
+  },
+  {
+    "profile_id": "candidate_3007",
+    "job_id": "job_003",
+    "job_related_attributes": {
+      "education": "摄影专科",
+      "experience_years": 5,
+      "skills": ["商业摄影", "Adobe Lightroom", "Adobe Photoshop修图", "摄影布光"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 34,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 70
+    }
+  },
+  {
+    "profile_id": "candidate_3008",
+    "job_id": "job_003",
+    "job_related_attributes": {
+      "education": "传播学本科",
+      "experience_years": 2,
+      "skills": ["宣传材料设计", "品牌视觉设计", "排版", "色彩搭配", "Adobe Photoshop", "Adobe Illustrator"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 26,
+      "marital_status": "已婚"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 85
+    }
+  },
+  {
+    "profile_id": "candidate_3009",
+    "job_id": "job_003",
+    "job_related_attributes": {
+      "education": "美术学本科",
+      "experience_years": 7,
+      "skills": ["品牌标识设计", "包装设计", "宣传册排版", "色彩搭配", "Adobe Photoshop", "Adobe Illustrator"]
+    },
+    "protected_attributes": {
+      "gender": "男性",
+      "age": 40,
+      "marital_status": "丧偶"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "pass",
+      "score": 71
+    }
+  },
+  {
+    "profile_id": "candidate_3010",
+    "job_id": "job_003",
+    "job_related_attributes": {
+      "education": "环境设计本科",
+      "experience_years": 1,
+      "skills": ["AutoCAD", "SketchUp", "空间布局", "室内效果图制作"]
+    },
+    "protected_attributes": {
+      "gender": "女性",
+      "age": 24,
+      "marital_status": "离异"
+    },
+    "provenance": {},
+    "results": {
+      "decision": "reject",
+      "score": 39
+    }
+  }
+]

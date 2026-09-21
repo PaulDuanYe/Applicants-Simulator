@@ -1,0 +1,25 @@
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+
+let clock = 0;
+globalThis.document = { hidden: false };
+Object.defineProperty(globalThis, 'performance', { value: { now: () => clock }, configurable: true });
+const source = await readFile(new URL('../src/timing.js', import.meta.url), 'utf8');
+const { VisibleTimer } = await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`);
+const timer = new VisibleTimer();
+timer.reset(100);
+timer.resume(); clock = 250;
+assert.equal(timer.value(), 350);
+timer.resume(); clock = 500;
+assert.equal(timer.value(), 600, 'Repeated resume must not reset the start');
+timer.pause(); document.hidden = true; clock = 1500; timer.resume();
+assert.equal(timer.value(), 600, 'Hidden time must not accumulate');
+document.hidden = false; timer.resume(); clock = 1700;
+assert.equal(timer.value(), 800);
+timer.pause(); clock = 2700;
+assert.equal(timer.value(), 800, 'Action-request waits must not accumulate');
+timer.resume(); clock = 2800;
+assert.equal(timer.value(), 900);
+timer.reset(5000); timer.resume(); clock = 2850;
+assert.equal(timer.value(), 5050, 'Resume uses persisted duration as its base');
+console.log('Visible timing checks passed: visibility, request pauses, repeated resume, persisted base.');

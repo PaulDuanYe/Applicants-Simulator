@@ -1,0 +1,20 @@
+[
+  {
+    "job_id": "job_001",
+    "title": "Software Engineer",
+    "description": "开发后端服务，要求熟悉 Python 和 SQL。",
+    "provenance": {}
+  },
+  {
+    "job_id": "job_002",
+    "title": "Financial Analyst",
+    "description": "分析财务报表、编制预算并评估经营成本，要求熟悉财务分析、会计基础和 Excel。",
+    "provenance": {}
+  },
+  {
+    "job_id": "job_003",
+    "title": "Graphic Designer",
+    "description": "设计品牌视觉和宣传材料，要求掌握排版、色彩搭配，并熟悉 Adobe Photoshop 和 Illustrator。",
+    "provenance": {}
+  }
+]
